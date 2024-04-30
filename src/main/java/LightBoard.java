@@ -44,7 +44,7 @@ public class LightBoard
         if(lights[r][col] == true)
           sum++;
       }
-      if(sum/3 == 0)
+      if(sum%3 == 0)
         return true;
       return false;
     }
